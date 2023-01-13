@@ -1,0 +1,41 @@
+.members {
+  background-color: var(--dark-blue-color);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 50px;
+  height: 1150px;
+  margin-bottom: 200px;
+  border-radius: 0 0 18% 18%;
+}
+
+.title {
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 600;
+  font-size: 70px;
+  color: var(--white-full-color);
+}
+
+.photos {
+  width: 100%;
+}
+
+.memberName {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 600;
+  font-size: 70px;
+  margin: 20px 0;
+  margin-top: 50px;
+  color: var(--white-full-color);
+}
+
+.memberDescription {
+  width: 60%;
+  font-family: "Molengo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: var(--white-full-color);
+}

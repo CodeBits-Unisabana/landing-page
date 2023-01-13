@@ -1,0 +1,31 @@
+.banner {
+  background-color: var(--dark-blue-color);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 50px;
+  height: 700px;
+  border-radius: 0 0 18% 18%;
+}
+
+.title {
+  font-family: "M PLUS 1 Code", sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  color: var(--white-full-color);
+  margin: 10px 0;
+}
+
+.subtitle {
+  font-size: 20px;
+  font-family: "M PLUS 1 Code", sans-serif;
+  font-weight: 300;
+  color: var(--white-full-color);
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.illustration {
+  margin-top: 30px;
+}

@@ -1,0 +1,49 @@
+.navbar {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--blue-color);
+  gap: 50px;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  margin-top: 4px;
+  gap: 35px;
+}
+
+.listItem {
+  list-style: none;
+}
+
+.listItem:hover > .link {
+  color: var(--cyan-color);
+}
+
+.listItem:hover > .linkBar {
+  background-color: var(--cyan-color);
+  width: 100%;
+  height: 4px;
+}
+
+.link {
+  font-family: "Kumbh Sans", sans-serif;
+  color: var(--white-full-color);
+  text-decoration: none;
+  font-style: normal;
+  font-size: 17px;
+  font-weight: 400;
+  transition: all ease 0.3s;
+}
+
+.linkBar {
+  background-color: var(--blue-color);
+  width: 100%;
+  height: 4px;
+  transition: all ease 0.3s;
+}
