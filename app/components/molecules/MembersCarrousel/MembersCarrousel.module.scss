@@ -1,7 +1,13 @@
 .membersCarrousel {
-  width: 60%;
+  width: 80%;
   max-width: 1145px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media screen and (max-width: 1400px) {
+  .membersCarrousel {
+    width: 100%;
+  }
 }

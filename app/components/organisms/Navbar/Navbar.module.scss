@@ -47,3 +47,26 @@
   height: 4px;
   transition: all ease 0.3s;
 }
+
+@media screen and (max-width: 900px) {
+  .navbar {
+    flex-direction: column;
+    height: 200px;
+  }
+
+  .list {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .navbar {
+    flex-direction: column;
+    height: 150px;
+  }
+
+  .list {
+    padding: 0;
+    display: none;
+  }
+}

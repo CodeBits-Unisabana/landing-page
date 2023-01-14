@@ -123,7 +123,7 @@ const ContactUs = ({}: IContactUs) => {
             width="100"
             color="#32FDDF"
             secondaryColor="#F7277F"
-            radius="12.5"
+            radius="18"
             ariaLabel="mutating-dots-loading"
             wrapperStyle={{}}
             wrapperClass=""

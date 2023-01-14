@@ -51,3 +51,29 @@
   border: none;
   cursor: pointer;
 }
+
+@media screen and (max-width: 1200px) {
+  .contactUs {
+    flex-direction: column;
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  .formContainer {
+    width: 80%;
+    align-items: center;
+  }
+
+  .image {
+    margin: 100px;
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .image {
+    width: 250px;
+  }
+}
