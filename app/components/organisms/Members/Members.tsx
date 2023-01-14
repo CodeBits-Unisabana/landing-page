@@ -49,10 +49,12 @@ const Members = ({}: IMembers) => {
         memberIndex={memberIndex}
         setMemberIndex={setMemberIndex}
       />
-      <h3 className={styles.memberName}>{membersList[memberIndex].name}</h3>
-      <p className={styles.memberDescription}>
-        {membersList[memberIndex].description}
-      </p>
+      <div className={styles.memberData}>
+        <h3 className={styles.memberName}>{membersList[memberIndex].name}</h3>
+        <p className={styles.memberDescription}>
+          {membersList[memberIndex].description}
+        </p>
+      </div>
       <img src={Illustration2.src} alt="" className={styles.illustration} />
     </div>
   );
