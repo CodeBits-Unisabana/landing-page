@@ -11,7 +11,7 @@ const ImageBottomColor = ({ image, color }: IImageBottomColor) => {
       src={image}
       alt=""
       className={styles.imageBottomColor}
-      style={{ borderBottom: `15px solid var(--${color}-color);` }}
+      style={{ borderBottom: `15px solid var(--${color}-color)` }}
     />
   );
 };

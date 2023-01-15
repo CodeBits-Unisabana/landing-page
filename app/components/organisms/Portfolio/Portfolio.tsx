@@ -1,5 +1,5 @@
 import styles from "./Portfolio.module.scss";
-import Project1 from "../../../../public/assets/Project1.png";
+import Project1 from "../../../../public/assets/Projects/Project1.png";
 import ButtonPurple from "../../atoms/ButtonPurple/ButtonPurple";
 
 interface IPortfolio {}

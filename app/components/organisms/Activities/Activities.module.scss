@@ -2,36 +2,36 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 150px;
-  margin: 70px 0;
+  gap: 120px;
+  margin: 250px 0 150px 0;
 }
 
 .events {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 60px;
 }
 
 .callToAction {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
-  gap: 40px;
+  gap: 25px;
 }
 
 .title {
   font-family: "Kumbh Sans", sans-serif;
-  font-weight: 900;
-  font-size: 40px;
+  font-weight: 800;
+  font-size: 45px;
   margin: 0;
 }
 
 @media screen and (max-width: 1130px) {
   .activities {
     align-items: flex-start;
-    gap: 80px;
+    gap: 40px;
   }
 
   .events {
@@ -39,7 +39,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .activities {
     align-items: center;
     flex-direction: column;

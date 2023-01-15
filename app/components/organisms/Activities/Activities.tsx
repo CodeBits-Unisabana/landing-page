@@ -1,6 +1,7 @@
 import ButtonPurple from "../../atoms/ButtonPurple/ButtonPurple";
 import EventsCard from "../../molecules/EventsCard/EventsCard";
 import styles from "./Activities.module.scss";
+import Event1 from "../../../../public/assets/Events/Event1.jpg";
 
 interface IActivities {}
 
@@ -8,13 +9,25 @@ const Activities = ({}: IActivities) => {
   return (
     <div className={styles.activities}>
       <div className={styles.events}>
-        <EventsCard />
-        <EventsCard />
+        <EventsCard
+          image={Event1.src}
+          title={"Taller de Ideación"}
+          days={"Lunes y Martes"}
+          hours={"12:00pm - 2:00pm"}
+          color={"cyan"}
+        />
+        <EventsCard
+          image={Event1.src}
+          title={"Participación Open Campus 2023"}
+          days={"Martes"}
+          hours={"9:00am - 5:00pm"}
+          color={"purple"}
+        />
       </div>
       <div className={styles.callToAction}>
-        <h3 className={styles.title}>
+        <h2 className={styles.title}>
           Asiste a nuestros <br /> próximos <br /> eventos
-        </h3>
+        </h2>
         <ButtonPurple text={"VER ANTERIORES"} />
       </div>
     </div>

@@ -31,3 +31,21 @@
 .swiper-button-next {
   color: var(--purple-color);
 }
+
+@media screen and (max-width: 1250px) {
+  .swiper {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .swiper-slide-active,
+  .swiper-slide-duplicate-active {
+    filter: brightness(1);
+  }
+
+  .swiper-slide-next + .swiper-slide,
+  .swiper-slide-duplicate-next + .swiper-slide {
+    filter: brightness(1);
+  }
+}

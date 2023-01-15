@@ -87,7 +87,7 @@ const ContactUs = ({}: IContactUs) => {
       },
       {
         objectTypeId: "0-1",
-        name: "phone",
+        name: "description",
         value: values.description,
       },
     ];
@@ -149,10 +149,10 @@ const ContactUs = ({}: IContactUs) => {
       />
       <div className={styles.contactUs}>
         <div className={styles.formContainer}>
-          <h1 className={styles.title}>
+          <h2 className={styles.title}>
             ¿Tienes algún proyecto <br /> en mente? O ¿Te interesa <br /> hacer
             parte de CodeBits?{" "}
-          </h1>
+          </h2>
           <Formik
             initialValues={initialValues}
             onSubmit={submitRequest}
