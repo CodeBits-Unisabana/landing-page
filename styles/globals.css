@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@200;300;400;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800;8..144,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Molengo&display=swap");
 
 :root {
@@ -10,4 +11,6 @@
   --dark-blue-color: #05050d;
   --cyan-color: #32fddf;
   --purple-color: #f7277f;
+  --black-color: #191919;
+  --grey-color: #242424;
 }

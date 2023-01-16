@@ -28,6 +28,7 @@
 }
 
 .title {
+  width: 65%;
   font-family: "Kumbh Sans";
   font-style: normal;
   font-weight: 800;
@@ -54,7 +55,7 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
   .contactUs {
     flex-direction: column;
   }
@@ -77,5 +78,9 @@
 @media screen and (max-width: 550px) {
   .image {
     width: 250px;
+  }
+
+  .title {
+    width: 100%;
   }
 }

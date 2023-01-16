@@ -25,8 +25,13 @@ const MembersCarrousel = ({
   memberIndex,
   setMemberIndex,
 }: IMembersCarrousel) => {
-  const [reseted, setReseted] = useState(false);
+  const [reseted, setReseted] = useState<boolean>(false);
+  const [domLoaded, setDomLoaded] = useState<boolean>(false);
   const { width } = useWindowDimensions();
+
+  useEffect(() => {
+    setDomLoaded(true);
+  }, []);
 
   useEffect(() => {
     if (memberIndex == 2 && !reseted) {
@@ -35,57 +40,59 @@ const MembersCarrousel = ({
     }
   }, [memberIndex]);
 
-  return (
-    <div className={styles.membersCarrousel}>
-      <Swiper
-        slidesPerView={1}
-        slidesPerGroup={1}
-        spaceBetween={100}
-        loop={true}
-        navigation={true}
-        onRealIndexChange={(index) => setMemberIndex(index.realIndex)}
-        initialSlide={0}
-        breakpoints={{
-          800: {
-            slidesPerView: 3,
-          },
-        }}
-        modules={[Pagination, Navigation]}
-      >
-        {width <= 800 ? (
-          <>
-            <SwiperSlide>
-              <ImageBottomColor image={Jonathan.src} color={"purple"} />
-            </SwiperSlide>
-            <SwiperSlide>
-              <ImageBottomColor image={Timote.src} color={"cyan"} />
-            </SwiperSlide>
-            <SwiperSlide>
-              <ImageBottomColor image={Ximena.src} color={"purple"} />
-            </SwiperSlide>
-            <SwiperSlide>
-              <ImageBottomColor image={Richard.src} color={"cyan"} />
-            </SwiperSlide>
-          </>
-        ) : (
-          <>
-            <SwiperSlide>
-              <ImageBottomColor image={Richard.src} color={"cyan"} />
-            </SwiperSlide>
-            <SwiperSlide>
-              <ImageBottomColor image={Jonathan.src} color={"purple"} />
-            </SwiperSlide>
-            <SwiperSlide>
-              <ImageBottomColor image={Timote.src} color={"cyan"} />
-            </SwiperSlide>
-            <SwiperSlide>
-              <ImageBottomColor image={Ximena.src} color={"purple"} />
-            </SwiperSlide>
-          </>
-        )}
-      </Swiper>
-    </div>
-  );
+  if (domLoaded) {
+    return (
+      <div className={styles.membersCarrousel}>
+        <Swiper
+          slidesPerView={1}
+          slidesPerGroup={1}
+          spaceBetween={100}
+          loop={true}
+          navigation={true}
+          onRealIndexChange={(index) => setMemberIndex(index.realIndex)}
+          initialSlide={0}
+          breakpoints={{
+            800: {
+              slidesPerView: 3,
+            },
+          }}
+          modules={[Pagination, Navigation]}
+        >
+          {width <= 800 ? (
+            <>
+              <SwiperSlide>
+                <ImageBottomColor image={Jonathan.src} color={"purple"} />
+              </SwiperSlide>
+              <SwiperSlide>
+                <ImageBottomColor image={Timote.src} color={"cyan"} />
+              </SwiperSlide>
+              <SwiperSlide>
+                <ImageBottomColor image={Ximena.src} color={"purple"} />
+              </SwiperSlide>
+              <SwiperSlide>
+                <ImageBottomColor image={Richard.src} color={"cyan"} />
+              </SwiperSlide>
+            </>
+          ) : (
+            <>
+              <SwiperSlide>
+                <ImageBottomColor image={Richard.src} color={"cyan"} />
+              </SwiperSlide>
+              <SwiperSlide>
+                <ImageBottomColor image={Jonathan.src} color={"purple"} />
+              </SwiperSlide>
+              <SwiperSlide>
+                <ImageBottomColor image={Timote.src} color={"cyan"} />
+              </SwiperSlide>
+              <SwiperSlide>
+                <ImageBottomColor image={Ximena.src} color={"purple"} />
+              </SwiperSlide>
+            </>
+          )}
+        </Swiper>
+      </div>
+    );
+  }
 };
 
 export default MembersCarrousel;

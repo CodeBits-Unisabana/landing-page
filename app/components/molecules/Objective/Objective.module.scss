@@ -1,0 +1,41 @@
+.objective {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  color: var(--white-full-color);
+}
+
+.title {
+  font-family: "Roboto Flex";
+  font-style: italic;
+  font-weight: 900;
+  font-size: 80px;
+  text-shadow: 0px 3px 3px var(--purple-color), 0px -3px 3px var(--cyan-color);
+  margin: 10px 0;
+  position: relative;
+}
+
+.description {
+  width: 80%;
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  margin: 10px 0;
+}
+
+@media screen and (max-width: 1100px) {
+  .objective {
+    width: 100%;
+  }
+
+  .title {
+    font-size: 70px;
+  }
+
+  .description {
+    font-size: 20px;
+  }
+}

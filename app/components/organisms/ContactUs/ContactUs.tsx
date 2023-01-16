@@ -150,8 +150,8 @@ const ContactUs = ({}: IContactUs) => {
       <div className={styles.contactUs}>
         <div className={styles.formContainer}>
           <h2 className={styles.title}>
-            ¿Tienes algún proyecto <br /> en mente? O ¿Te interesa <br /> hacer
-            parte de CodeBits?{" "}
+            ¿Tienes algún proyecto en mente? O ¿Te interesa hacer parte de
+            CodeBits?
           </h2>
           <Formik
             initialValues={initialValues}

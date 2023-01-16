@@ -1,0 +1,100 @@
+.aboutUs {
+  width: 100%;
+  padding: 50px 120px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--dark-blue-color);
+  color: var(--white-full-color);
+  background-image: url("../../../../public/assets/Wave2.svg");
+  background-size: cover;
+  background-position: bottom right;
+}
+
+.header {
+  width: 100%;
+  max-width: 1670px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.title {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 58px;
+  margin: 30px 0;
+  width: 30%;
+}
+
+.description {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 42px;
+  width: 80%;
+}
+
+.objectivesContainer {
+  width: 100%;
+  max-width: 1670px;
+  margin: 50px 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.subTitle {
+  font-family: "Roboto Flex";
+  font-style: italic;
+  font-weight: 900;
+  font-size: 50px;
+  span:nth-child(1) {
+    color: var(--cyan-color);
+  }
+  span:nth-child(2) {
+    color: var(--purple-color);
+  }
+}
+
+.objectives {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 100px;
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 1100px) {
+  .objectives {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .aboutUs {
+    padding: 20px 40px;
+  }
+
+  .title {
+    font-size: 50px;
+  }
+
+  .description {
+    width: 100%;
+  }
+
+  .objectivesContainer {
+    margin-top: 30px;
+  }
+
+  .objectives {
+    gap: 50px;
+  }
+}
