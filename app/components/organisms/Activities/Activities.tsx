@@ -1,7 +1,11 @@
+import Event1 from "../../../../public/assets/Events/Event1.webp";
+import Event2 from "../../../../public/assets/Events/Event2.webp";
+
 import ButtonPurple from "../../atoms/ButtonPurple/ButtonPurple";
+
 import EventsCard from "../../molecules/EventsCard/EventsCard";
+
 import styles from "./Activities.module.scss";
-import Event1 from "../../../../public/assets/Events/Event1.jpg";
 
 interface IActivities {}
 
@@ -17,7 +21,7 @@ const Activities = ({}: IActivities) => {
           color={"cyan"}
         />
         <EventsCard
-          image={Event1.src}
+          image={Event2.src}
           title={"Participación Open Campus 2023"}
           days={"Martes"}
           hours={"9:00am - 5:00pm"}

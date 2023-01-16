@@ -1,6 +1,8 @@
-import styles from "./Navbar.module.scss";
-import CodeBitsLogo from "../../../../public/assets/CodeBitsLogo.webp";
 import Link from "next/link";
+
+import CodeBitsLogo from "../../../../public/assets/CodeBitsLogo.webp";
+
+import styles from "./Navbar.module.scss";
 
 interface INavbar {}
 

@@ -1,17 +1,22 @@
 //Prettier ignore
 "use client";
 
-import { Formik } from "formik";
-import styles from "./ContactUs.module.scss";
-import * as Yup from "yup";
-import { Form } from "formik";
-import Input from "../../atoms/InputFormik/Input";
-import TextArea from "../../atoms/InputFormik/TextArea";
-import FormImage from "../../../../public/assets/FormImage.png";
 import axios from "axios";
-import { toast, ToastContainer } from "react-toastify";
+import { Formik } from "formik";
+import { Form } from "formik";
 import { useState } from "react";
 import { MutatingDots } from "react-loader-spinner";
+import { ToastContainer, toast } from "react-toastify";
+import * as Yup from "yup";
+
+import FormImage from "../../../../public/assets/FormImage.png";
+
+import Input from "../../atoms/InputFormik/Input";
+import TextArea from "../../atoms/InputFormik/TextArea";
+
+import styles from "./ContactUs.module.scss";
+
+//Prettier ignore
 
 interface IContactUs {}
 

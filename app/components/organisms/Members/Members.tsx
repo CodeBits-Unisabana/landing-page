@@ -1,11 +1,16 @@
 // prettier-ignore
-"use client"
+"use client";
 
 import { useState } from "react";
-import MembersCarrousel from "../../molecules/MembersCarrousel/MembersCarrousel";
-import styles from "./Members.module.scss";
+
 import Illustration2 from "../../../../public/assets/Illustration2.svg";
+
+import MembersCarrousel from "../../molecules/MembersCarrousel/MembersCarrousel";
+
 import useWindowDimensions from "../../../Hooks/useWindowDimensions";
+import styles from "./Members.module.scss";
+
+// prettier-ignore
 
 interface IMembers {}
 

@@ -1,7 +1,9 @@
-import { Field, ErrorMessage } from "formik";
-import Error from "./Error";
+import { ErrorMessage, Field } from "formik";
+
 // import "./Field.scss";
 import styles from "./Input.module.scss";
+
+import Error from "./Error";
 
 interface IMinifiedFormField {
   type: string;

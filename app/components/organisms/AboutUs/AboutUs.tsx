@@ -1,4 +1,5 @@
 import Objective from "../../molecules/Objective/Objective";
+
 import styles from "./AboutUs.module.scss";
 
 interface IAboutUs {}

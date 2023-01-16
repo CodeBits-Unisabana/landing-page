@@ -1,7 +1,9 @@
-import styles from "./Banner.module.scss";
 import CodeBitsLogo_Big from "../../../../public/assets/CodeBitsLogo_Big.webp";
 import Illustration from "../../../../public/assets/Illustration.svg";
+
 import ButtonCyan from "../../atoms/ButtonCyan/ButtonCyan";
+
+import styles from "./Banner.module.scss";
 
 interface IBanner {}
 

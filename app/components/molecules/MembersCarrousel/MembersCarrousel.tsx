@@ -1,20 +1,25 @@
 // prettier - ignore;
 "use client";
 
-import styles from "./MembersCarrousel.module.scss";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Navigation } from "swiper";
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
-import "./Swiper.css";
 import { Dispatch, SetStateAction, useEffect, useState } from "react";
-import ImageBottomColor from "../../atoms/ImageBottomColor/ImageBottomColor";
-import Richard from "../../../../public/assets/Members/Richard.jpg";
+import { Navigation, Pagination } from "swiper";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import { Swiper, SwiperSlide } from "swiper/react";
+
 import Jonathan from "../../../../public/assets/Members/Jonathan.jpg";
+import Richard from "../../../../public/assets/Members/Richard.jpg";
 import Timote from "../../../../public/assets/Members/Timote.jpg";
 import Ximena from "../../../../public/assets/Members/Ximena.jpg";
+
+import ImageBottomColor from "../../atoms/ImageBottomColor/ImageBottomColor";
+
 import useWindowDimensions from "../../../Hooks/useWindowDimensions";
+import styles from "./MembersCarrousel.module.scss";
+import "./Swiper.css";
+
+// prettier - ignore;
 
 interface IMembersCarrousel {
   memberIndex: number;
