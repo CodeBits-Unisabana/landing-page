@@ -30,20 +30,12 @@ const MembersCarrousel = ({
   memberIndex,
   setMemberIndex,
 }: IMembersCarrousel) => {
-  const [reseted, setReseted] = useState<boolean>(false);
   const [domLoaded, setDomLoaded] = useState<boolean>(false);
   const { width } = useWindowDimensions();
 
   useEffect(() => {
     setDomLoaded(true);
   }, []);
-
-  // useEffect(() => {
-  //   if (memberIndex == 2 && !reseted) {
-  //     setMemberIndex(0);
-  //     setReseted(true);
-  //   }
-  // }, []);
 
   return (
     <div className={styles.membersCarrousel}>
