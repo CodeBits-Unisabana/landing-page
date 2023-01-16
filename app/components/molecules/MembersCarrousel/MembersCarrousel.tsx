@@ -93,6 +93,8 @@ const MembersCarrousel = ({
       </div>
     );
   }
+
+  return "";
 };
 
 export default MembersCarrousel;
