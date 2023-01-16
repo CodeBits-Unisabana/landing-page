@@ -1,5 +1,5 @@
 import styles from "./Footer.module.scss";
-import CodeBitsLogo_Big from "../../../../public/assets/CodeBitsLogo_Big.png";
+import CodeBitsLogo_Big from "../../../../public/assets/CodeBitsLogo_Big.webp";
 
 interface IFooter {}
 
