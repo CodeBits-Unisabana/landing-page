@@ -14,3 +14,7 @@
   --black-color: #191919;
   --grey-color: #242424;
 }
+
+html {
+  scroll-behavior: smooth;
+}
