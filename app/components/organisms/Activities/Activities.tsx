@@ -11,7 +11,7 @@ interface IActivities {}
 
 const Activities = ({}: IActivities) => {
   return (
-    <div className={styles.activities}>
+    <div className={styles.activities} id="activities">
       <div className={styles.events}>
         <EventsCard
           image={Event1.src}

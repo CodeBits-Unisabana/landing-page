@@ -18,6 +18,8 @@ import styles from "./ContactUs.module.scss";
 
 //Prettier ignore
 
+//Prettier ignore
+
 interface IContactUs {}
 
 const ContactUs = ({}: IContactUs) => {
@@ -152,7 +154,7 @@ const ContactUs = ({}: IContactUs) => {
         draggable
         pauseOnHover={false}
       />
-      <div className={styles.contactUs}>
+      <div className={styles.contactUs} id="contactUs">
         <div className={styles.formContainer}>
           <h2 className={styles.title}>
             ¿Tienes algún proyecto en mente? O ¿Te interesa hacer parte de

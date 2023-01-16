@@ -38,12 +38,12 @@ const MembersCarrousel = ({
     setDomLoaded(true);
   }, []);
 
-  useEffect(() => {
-    if (memberIndex == 2 && !reseted) {
-      setMemberIndex(0);
-      setReseted(true);
-    }
-  }, [memberIndex]);
+  // useEffect(() => {
+  //   if (memberIndex == 2 && !reseted) {
+  //     setMemberIndex(0);
+  //     setReseted(true);
+  //   }
+  // }, []);
 
   return (
     <div className={styles.membersCarrousel}>
@@ -72,16 +72,16 @@ const MembersCarrousel = ({
                 <ImageBottomColor image={Timote.src} color={"cyan"} />
               </SwiperSlide>
               <SwiperSlide>
-                <ImageBottomColor image={Ximena.src} color={"purple"} />
+                <ImageBottomColor image={Richard.src} color={"cyan"} />
               </SwiperSlide>
               <SwiperSlide>
-                <ImageBottomColor image={Richard.src} color={"cyan"} />
+                <ImageBottomColor image={Ximena.src} color={"purple"} />
               </SwiperSlide>
             </>
           ) : (
             <>
               <SwiperSlide>
-                <ImageBottomColor image={Richard.src} color={"cyan"} />
+                <ImageBottomColor image={Ximena.src} color={"purple"} />
               </SwiperSlide>
               <SwiperSlide>
                 <ImageBottomColor image={Jonathan.src} color={"purple"} />
@@ -90,7 +90,7 @@ const MembersCarrousel = ({
                 <ImageBottomColor image={Timote.src} color={"cyan"} />
               </SwiperSlide>
               <SwiperSlide>
-                <ImageBottomColor image={Ximena.src} color={"purple"} />
+                <ImageBottomColor image={Richard.src} color={"cyan"} />
               </SwiperSlide>
             </>
           )}

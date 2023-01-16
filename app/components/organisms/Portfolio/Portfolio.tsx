@@ -8,7 +8,7 @@ interface IPortfolio {}
 
 const Portfolio = ({}: IPortfolio) => {
   return (
-    <div className={styles.portfolio}>
+    <div className={styles.portfolio} id="portfolio">
       <h2 className={styles.title}>
         ¡Nuestro Portafolio de Proyectos no para de crecer!
       </h2>

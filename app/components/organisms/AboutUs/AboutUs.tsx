@@ -6,7 +6,7 @@ interface IAboutUs {}
 
 const AboutUs = ({}: IAboutUs) => {
   return (
-    <div className={styles.aboutUs}>
+    <div className={styles.aboutUs} id="aboutUs">
       <div className={styles.header}>
         <h2 className={styles.title}>SOBRE NOSOTROS</h2>
         <p className={styles.description}>
