@@ -40,9 +40,9 @@ const MembersCarrousel = ({
     }
   }, [memberIndex]);
 
-  if (domLoaded) {
-    return (
-      <div className={styles.membersCarrousel}>
+  return (
+    <div className={styles.membersCarrousel}>
+      {domLoaded && (
         <Swiper
           slidesPerView={1}
           slidesPerGroup={1}
@@ -90,11 +90,9 @@ const MembersCarrousel = ({
             </>
           )}
         </Swiper>
-      </div>
-    );
-  }
-
-  return "";
+      )}
+    </div>
+  );
 };
 
 export default MembersCarrousel;
