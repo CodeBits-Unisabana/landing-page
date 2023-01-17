@@ -15,11 +15,10 @@ const Portfolio = ({}: IPortfolio) => {
       <div className={styles.projects}>
         <img src={Project1.src} alt="" className={styles.image} />
         <p className={styles.description}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet
-          consectetur adipiscing elit ut aliquam purus sit amet. Et malesuada
-          fames ac turpis egestas. Lectus vestibulum mattis ullamcorper velit
-          sed ullamcorper morbi tincidunt.
+          Con objeto de reforzar nuestras habilidades en diseño y desarrollo
+          web, buscamos proponer soluciones tecnológicas e innovadoras a
+          nuestros clientes. ¡Consideramos indispensable priorizar nuestra
+          mejora contínua!
         </p>
       </div>
       <ButtonPurple text={"VER MÁS"} />
