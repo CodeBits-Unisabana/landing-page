@@ -7,10 +7,10 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import Jonathan from "../../../../public/assets/Members/Jonathan.jpg";
-import Richard from "../../../../public/assets/Members/Richard.jpg";
-import Timote from "../../../../public/assets/Members/Timote.jpg";
-import Ximena from "../../../../public/assets/Members/Ximena.jpg";
+import Jonathan from "../../../../public/assets/Members/Jonathan.webp";
+import Richard from "../../../../public/assets/Members/Richard.webp";
+import Timote from "../../../../public/assets/Members/Timote.webp";
+import Ximena from "../../../../public/assets/Members/Ximena.webp";
 
 import ImageBottomColor from "../../atoms/ImageBottomColor/ImageBottomColor";
 
