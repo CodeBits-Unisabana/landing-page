@@ -15,7 +15,7 @@ const Banner = ({}: IBanner) => {
       <h3 className={styles.subtitle}>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit
       </h3>
-      <ButtonCyan text={"CONÓCENOS"} />
+      <ButtonCyan text={"CONÓCENOS"} link={"#contactUs"} />
       <img src={Illustration.src} alt="" className={styles.illustration} />
     </div>
   );
