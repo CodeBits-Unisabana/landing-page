@@ -1,4 +1,3 @@
-// prettier - ignore;
 "use client";
 
 import { Dispatch, SetStateAction, useEffect, useState } from "react";
@@ -18,8 +17,6 @@ import ImageBottomColor from "../../atoms/ImageBottomColor/ImageBottomColor";
 import useWindowDimensions from "../../../Hooks/useWindowDimensions";
 import styles from "./MembersCarrousel.module.scss";
 import "./Swiper.css";
-
-// prettier - ignore;
 
 interface IMembersCarrousel {
   memberIndex: number;

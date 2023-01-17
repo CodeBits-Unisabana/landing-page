@@ -22,7 +22,7 @@ const Portfolio = ({}: IPortfolio) => {
           sed ullamcorper morbi tincidunt.
         </p>
       </div>
-      <ButtonPurple text={"VER MÁS"} />
+      <ButtonPurple text={"VER MÁS"} link={"#contactUs"} />
     </div>
   );
 };

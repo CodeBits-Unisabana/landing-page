@@ -1,4 +1,3 @@
-// prettier-ignore
 "use client";
 
 import { useState } from "react";
@@ -8,10 +7,6 @@ import Illustration2 from "../../../../public/assets/Illustration2.svg";
 import MembersCarrousel from "../../molecules/MembersCarrousel/MembersCarrousel";
 
 import styles from "./Members.module.scss";
-
-// prettier-ignore
-
-// prettier-ignore
 
 interface IMembers {}
 
