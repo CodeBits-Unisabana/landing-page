@@ -26,11 +26,14 @@ const Footer = ({}: IFooter) => {
           </ul>
         </div>
         <div className={styles.socialMedia}>
-          <a href="#">
+          <a href="https://www.instagram.com/codebits_unisabana/">
             <i className="bi bi-instagram"></i>
           </a>
-          <a href="#">
+          <a href="https://github.com/CodeBits-Unisabana">
             <i className="bi bi-github"></i>
+          </a>
+          <a href="https://discord.gg/qbRzXM2p5B">
+            <i className="bi bi-discord"></i>
           </a>
         </div>
       </div>
