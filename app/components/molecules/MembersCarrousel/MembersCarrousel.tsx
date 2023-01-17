@@ -55,13 +55,13 @@ const MembersCarrousel = ({
           {width <= 800 ? (
             <>
               <SwiperSlide>
-                <ImageBottomColor image={Jonathan.src} color={"purple"} />
+                <ImageBottomColor image={Richard.src} color={"purple"} />
+              </SwiperSlide>
+              <SwiperSlide>
+                <ImageBottomColor image={Jonathan.src} color={"cyan"} />
               </SwiperSlide>
               <SwiperSlide>
                 <ImageBottomColor image={Timote.src} color={"cyan"} />
-              </SwiperSlide>
-              <SwiperSlide>
-                <ImageBottomColor image={Richard.src} color={"cyan"} />
               </SwiperSlide>
               <SwiperSlide>
                 <ImageBottomColor image={Ximena.src} color={"purple"} />
@@ -73,13 +73,13 @@ const MembersCarrousel = ({
                 <ImageBottomColor image={Ximena.src} color={"purple"} />
               </SwiperSlide>
               <SwiperSlide>
-                <ImageBottomColor image={Jonathan.src} color={"purple"} />
+                <ImageBottomColor image={Richard.src} color={"purple"} />
+              </SwiperSlide>
+              <SwiperSlide>
+                <ImageBottomColor image={Jonathan.src} color={"cyan"} />
               </SwiperSlide>
               <SwiperSlide>
                 <ImageBottomColor image={Timote.src} color={"cyan"} />
-              </SwiperSlide>
-              <SwiperSlide>
-                <ImageBottomColor image={Richard.src} color={"cyan"} />
               </SwiperSlide>
             </>
           )}

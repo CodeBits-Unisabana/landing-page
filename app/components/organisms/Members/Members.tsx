@@ -47,6 +47,11 @@ const Members = ({}: IMembers) => {
 
   const membersListX3 = [
     {
+      name: "RICHARD GUEVARA",
+      description: `Compromiso con la educación y el talento joven, el apoyo y el trabajo duro. 
+      Fundador, líder de desarrollo back end y líder de CodeBits.`,
+    },
+    {
       name: "JONATHAN BUITRAGO",
       description: `Persistente y determinado con la educación, el aprendizaje continuo y el 
       detalle. Fundador y líder de desarrollo front end de CodeBits.`,
@@ -55,11 +60,6 @@ const Members = ({}: IMembers) => {
       name: "MIGUEL TIMOTÉ",
       description: `Siempre en busca de nuevos conocimientos y habilidades para compartir 
       con aquellos que desean cambiar el mundo. Fundador y lider de diseño UX/UI de CodeBits`,
-    },
-    {
-      name: "RICHARD GUEVARA",
-      description: `Compromiso con la educación y el talento joven, el apoyo y el trabajo duro. 
-      Fundador, líder de desarrollo back end y líder de CodeBits.`,
     },
     {
       name: "XIMENA RAMIREZ",
