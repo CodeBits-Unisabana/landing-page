@@ -9,12 +9,14 @@ import { MutatingDots } from "react-loader-spinner";
 import { ToastContainer, toast } from "react-toastify";
 import * as Yup from "yup";
 
-import FormImage from "../../../../public/assets/FormImage.png";
+import FormImage from "../../../../public/assets/FormImage.webp";
 
 import Input from "../../atoms/InputFormik/Input";
 import TextArea from "../../atoms/InputFormik/TextArea";
 
 import styles from "./ContactUs.module.scss";
+
+//Prettier ignore
 
 //Prettier ignore
 
