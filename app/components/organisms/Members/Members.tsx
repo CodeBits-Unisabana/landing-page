@@ -8,6 +8,38 @@ import MembersCarrousel from "../../molecules/MembersCarrousel/MembersCarrousel"
 
 import styles from "./Members.module.scss";
 
+// prettier-ignore
+
+// prettier-ignore
+
+// prettier-ignore
+
+// prettier-ignore
+
+// prettier-ignore
+
+// prettier-ignore
+
+// prettier-ignore
+
+// prettier-ignore
+
+// prettier-ignore
+
+// prettier-ignore
+
+// prettier-ignore
+
+// prettier-ignore
+
+// prettier-ignore
+
+// prettier-ignore
+
+// prettier-ignore
+
+// prettier-ignore
+
 interface IMembers {}
 
 const Members = ({}: IMembers) => {
@@ -16,31 +48,23 @@ const Members = ({}: IMembers) => {
   const membersListX3 = [
     {
       name: "JONATHAN BUITRAGO",
-      description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit tempora
-        voluptatum modi! Quo consectetur illum saepe neque qui, laboriosam nobis
-        mollitia, doloribus provident magnam nulla eius sit, cumque
-        reprehenderit deleniti 1.`,
+      description: `Persistente y determinado con la educación, el aprendizaje continuo y el 
+      detalle. Fundador y líder de desarrollo front end de CodeBits.`,
     },
     {
       name: "MIGUEL TIMOTÉ",
-      description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit tempora
-        voluptatum modi! Quo consectetur illum saepe neque qui, laboriosam nobis
-        mollitia, doloribus provident magnam nulla eius sit, cumque
-        reprehenderit deleniti 2.`,
+      description: `Siempre en busca de nuevos conocimientos y habilidades para compartir 
+      con aquellos que desean cambiar el mundo. Fundador y lider de diseño UX/UI de CodeBits`,
     },
     {
       name: "RICHARD GUEVARA",
-      description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit tempora
-        voluptatum modi! Quo consectetur illum saepe neque qui, laboriosam nobis
-        mollitia, doloribus provident magnam nulla eius sit, cumque
-        reprehenderit deleniti 4.`,
+      description: `Compromiso con la educación y el talento joven, el apoyo y el trabajo duro. 
+      Fundador, líder de desarrollo back end y líder de CodeBits.`,
     },
     {
       name: "XIMENA RAMIREZ",
-      description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit tempora
-        voluptatum modi! Quo consectetur illum saepe neque qui, laboriosam nobis
-        mollitia, doloribus provident magnam nulla eius sit, cumque
-        reprehenderit deleniti 3.`,
+      description: `Pasión por crear innovando, y la resolución de problemas a partir de la 
+      analítica de cada situación. Fundadora, líder de logística y community manager de CodeBits`,
     },
   ];
 

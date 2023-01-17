@@ -10,11 +10,13 @@ const AboutUs = ({}: IAboutUs) => {
       <div className={styles.header}>
         <h2 className={styles.title}>SOBRE NOSOTROS</h2>
         <p className={styles.description}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet
-          volutpat consequat mauris. Massa sed elementum tempus egestas sed sed.
-          Vitae tortor condimentum lacinia quis vel eros donec ac odio. Sem
-          integer vitae justo eget magna fermentum iaculis.
+          ¡Hola! Somos &lt;Code/Bits&gt;, y estamos felices de tenerte aquí
+          Somos un equipo de estudiantes de Ingeniería Informática de séptimo
+          semestre apasionados por la tecnología y el desarrollo de soluciones
+          innovadoras que involucren el diseño y desarrollo web. Buscamos a
+          través del trabajo en equipo la potencialización del talento; por esta
+          razón, brindamos clases y talleres teórico-prácticos para difundir
+          nuestro conocimiento.
         </p>
       </div>
       <div className={styles.objectivesContainer}>
@@ -37,7 +39,7 @@ const AboutUs = ({}: IAboutUs) => {
           <Objective
             number={"03"}
             description={
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              "Crecer como profesionales buscando oportunidades de mejora, reforzando además nuestras habilidades blandas y entendiendo la forma en que funciona el mundo laboral."
             }
           />
         </div>

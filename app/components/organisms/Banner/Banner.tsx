@@ -11,9 +11,10 @@ const Banner = ({}: IBanner) => {
   return (
     <div className={styles.banner}>
       <img src={CodeBitsLogo_Big.src} alt="" className={styles.logo} />
-      <h1 className={styles.title}>Lorem Ipsum</h1>
+      <h1 className={styles.title}>Apasionados por la tecnología</h1>
       <h3 className={styles.subtitle}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit
+        Nos mueve la innovación, el desarrollo Web y el diseño. Amamos enseñar,
+        ayudar y trabajar
       </h3>
       <ButtonCyan text={"CONÓCENOS"} />
       <img src={Illustration.src} alt="" className={styles.illustration} />
