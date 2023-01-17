@@ -12,16 +12,16 @@ const Footer = ({}: IFooter) => {
           <img src={CodeBitsLogo_Big.src} alt="" className={styles.logo} />
           <ul className={styles.menu}>
             <li>
-              <a href="#">NOSOTROS</a>
+              <a href="#aboutUs">NOSOTROS</a>
             </li>
             <li>
-              <a href="#">EQUIPO</a>
+              <a href="#members">EQUIPO</a>
             </li>
             <li>
-              <a href="#">PROYECTOS</a>
+              <a href="#portfolio">PROYECTOS</a>
             </li>
             <li>
-              <a href="#">EVENTOS</a>
+              <a href="#activities">EVENTOS</a>
             </li>
           </ul>
         </div>
