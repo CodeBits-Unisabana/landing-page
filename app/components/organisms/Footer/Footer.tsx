@@ -39,8 +39,12 @@ const Footer = ({}: IFooter) => {
       </div>
       <div className={styles.bottomContent}>
         <div className={styles.legal}>
-          <a href="#">Términos y Condiciones</a>
-          <a href="#">Política de privacidad</a>
+          <a href="https://docs.google.com/document/d/e/2PACX-1vT9Rp34dr8PWHgqxXskuu_TJ8D_Id3iFsnHAK9ypbBo3R1uqxkuBX1FkGmbw_s-KwYV3weNawWiGW3q/pub">
+            Términos y Condiciones
+          </a>
+          <a href="https://docs.google.com/document/d/e/2PACX-1vQx8ZI7gYjcY3Le6v_gZ7_vH8QscXl_LJRWYzQwwbRiL6ARsXP4rJOdjNnSULbUJaSatD3j4xLNhU3x/pub">
+            Política de privacidad
+          </a>
         </div>
       </div>
     </footer>
