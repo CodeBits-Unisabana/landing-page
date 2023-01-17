@@ -16,7 +16,7 @@ const Banner = ({}: IBanner) => {
         Nos mueve la innovación, el desarrollo Web y el diseño. Amamos enseñar,
         ayudar y trabajar
       </h3>
-      <ButtonCyan text={"CONÓCENOS"} />
+      <ButtonCyan text={"CONÓCENOS"} link={"#contactUs"} />
       <img src={Illustration.src} alt="" className={styles.illustration} />
     </div>
   );

@@ -26,8 +26,8 @@
 .image {
   width: 490px;
   height: 800px;
-  filter: drop-shadow(-5px 5px 2px var(--cyan-color))
-    drop-shadow(5px -5px 2px var(--purple-color));
+  filter: drop-shadow(-5px 5px 0px var(--cyan-color))
+    drop-shadow(5px -5px 0px var(--purple-color));
 }
 
 .title {
@@ -75,12 +75,14 @@
   .image {
     margin: 100px;
     width: 400px;
+    height: 653px;
   }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 650px) {
   .image {
-    width: 250px;
+    width: 300px;
+    height: 490px;
   }
 
   .title {
