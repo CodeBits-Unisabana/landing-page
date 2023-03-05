@@ -50,6 +50,26 @@
   flex-direction: column;
 }
 
+.statisticsContainer {
+  width: 100%;
+  margin: 25px 0;
+  max-width: 1670px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.statistics {
+  width: 100%;
+  margin-top: 10px;
+  display: grid;
+  grid-auto-flow: dense;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  justify-content: center;
+  align-items: flex-start;
+}
+
 .subTitle {
   font-family: "Roboto Flex";
   font-style: italic;

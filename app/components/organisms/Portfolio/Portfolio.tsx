@@ -15,10 +15,8 @@ const Portfolio = ({}: IPortfolio) => {
       <div className={styles.projects}>
         <img src={Project1.src} alt="" className={styles.image} />
         <p className={styles.description}>
-          Con objeto de reforzar nuestras habilidades en diseño y desarrollo
-          web, buscamos proponer soluciones tecnológicas e innovadoras a
-          nuestros clientes. ¡Consideramos indispensable priorizar nuestra
-          mejora contínua!
+          Desarrollamos la app para ver los retos de los equipos en la Sabana
+          Hack donde la usaron alrededor de 140.
         </p>
       </div>
       <ButtonPurple text={"VER MÁS"} link={"#contactUs"} />

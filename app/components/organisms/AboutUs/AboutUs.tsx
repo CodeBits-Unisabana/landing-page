@@ -1,4 +1,5 @@
 import Objective from "../../molecules/Objective/Objective";
+import Statistic from "../../molecules/Statistic/Statistic";
 
 import styles from "./AboutUs.module.scss";
 
@@ -42,6 +43,20 @@ const AboutUs = ({}: IAboutUs) => {
               "Crecer como profesionales buscando oportunidades de mejora, reforzando además nuestras habilidades blandas y entendiendo la forma en que funciona el mundo laboral."
             }
           />
+        </div>
+      </div>
+      <div className={styles.statisticsContainer}>
+        <h2 className={styles.subTitle}>
+          <span>CodeBits</span> en <span>números</span>
+        </h2>
+        <div className={styles.statistics}>
+          <Statistic description={"Estudiantes impactados"} data={80} />
+          <Statistic
+            description={"Sesiones realizadas el año pasado"}
+            data={12}
+          />
+          <Statistic description={"Integrantes del equipo"} data={6} />
+          <Statistic description={"Talleres completados"} data={3} />
         </div>
       </div>
     </div>

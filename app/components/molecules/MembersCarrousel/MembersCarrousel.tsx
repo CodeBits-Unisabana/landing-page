@@ -1,43 +1,48 @@
 "use client";
 
 import { StaticImageData } from "next/image";
-import { Dispatch, SetStateAction, useEffect, useState } from "react";
+import {
+  Dispatch,
+  SetStateAction,
+  useCallback,
+  useEffect,
+  useState,
+} from "react";
 import { Navigation, Pagination } from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import Espitia from "../../../../public/assets/Members/Espitia.webp";
-import Jonathan from "../../../../public/assets/Members/Jonathan.webp";
-import Ozami from "../../../../public/assets/Members/Ozami.webp";
-import Richard from "../../../../public/assets/Members/Richard.webp";
-import Timote from "../../../../public/assets/Members/Timote.webp";
-import Ximena from "../../../../public/assets/Members/Ximena.webp";
-
 import ImageBottomColor from "../../atoms/ImageBottomColor/ImageBottomColor";
 
 import useWindowDimensions from "../../../Hooks/useWindowDimensions";
 import styles from "./MembersCarrousel.module.scss";
-// import Stack from "../../../dto/stack.ts"
 import "./Swiper.css";
 
 interface IMembersCarrousel {
   membersImages: StaticImageData[];
-  shiftedMembersImages: StaticImageData[];
   setMemberIndex: Dispatch<SetStateAction<number>>;
 }
 
 const MembersCarrousel = ({
   membersImages,
-  shiftedMembersImages,
   setMemberIndex,
 }: IMembersCarrousel) => {
   const [domLoaded, setDomLoaded] = useState<boolean>(false);
   const { width } = useWindowDimensions();
 
+  const shiftPositions = useCallback((arr: StaticImageData[]) => {
+    let newArr: StaticImageData[] = [];
+    const tail = arr.slice(-1);
+    const head = arr.slice(0, -1);
+    newArr = newArr.concat(tail, head);
+    return newArr;
+  }, []);
+
   useEffect(() => {
     setDomLoaded(true);
+    shiftPositions(membersImages);
   }, []);
 
   return (
@@ -59,57 +64,17 @@ const MembersCarrousel = ({
           modules={[Pagination, Navigation]}
         >
           {width <= 800 ? (
-            // <>
-            //   <SwiperSlide>
-            //     <ImageBottomColor image={Richard.src} color={"purple"} />
-            //   </SwiperSlide>
-            //   <SwiperSlide>
-            //     <ImageBottomColor image={Jonathan.src} color={"cyan"} />
-            //   </SwiperSlide>
-            //   <SwiperSlide>
-            //     <ImageBottomColor image={Timote.src} color={"cyan"} />
-            //   </SwiperSlide>
-            //   <SwiperSlide>
-            //     <ImageBottomColor image={Espitia.src} color={"purple"} />
-            //   </SwiperSlide>
-            //   <SwiperSlide>
-            //     <ImageBottomColor image={Ozami.src} color={"cyan"} />
-            //   </SwiperSlide>
-            //   <SwiperSlide>
-            //     <ImageBottomColor image={Ximena.src} color={"purple"} />
-            //   </SwiperSlide>
-            // </>
             <>
-              {membersImages.map((image) => (
-                <SwiperSlide>
+              {membersImages.map((image, index) => (
+                <SwiperSlide key={index}>
                   <ImageBottomColor image={image.src} color={"purple"} />
                 </SwiperSlide>
               ))}
             </>
           ) : (
-            // <>
-            //   <SwiperSlide>
-            //     <ImageBottomColor image={Ximena.src} color={"purple"} />
-            //   </SwiperSlide>
-            //   <SwiperSlide>
-            //     <ImageBottomColor image={Richard.src} color={"purple"} />
-            //   </SwiperSlide>
-            //   <SwiperSlide>
-            //     <ImageBottomColor image={Jonathan.src} color={"cyan"} />
-            //   </SwiperSlide>
-            //   <SwiperSlide>
-            //     <ImageBottomColor image={Timote.src} color={"purple"} />
-            //   </SwiperSlide>
-            //   <SwiperSlide>
-            //     <ImageBottomColor image={Espitia.src} color={"cyan"} />
-            //   </SwiperSlide>
-            //   <SwiperSlide>
-            //     <ImageBottomColor image={Ozami.src} color={"purple"} />
-            //   </SwiperSlide>
-            // </>
             <>
-              {shiftedMembersImages.map((image) => (
-                <SwiperSlide>
+              {shiftPositions(membersImages).map((image, index) => (
+                <SwiperSlide key={index}>
                   <ImageBottomColor image={image.src} color={"purple"} />
                 </SwiperSlide>
               ))}
