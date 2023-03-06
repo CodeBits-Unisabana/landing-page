@@ -12,9 +12,9 @@ const Navbar = ({}: INavbar) => {
       <img src={CodeBitsLogo.src} alt="" className={styles.logo} />
       <ul className={styles.list}>
         <li className={styles.listItem}>
-          <a href={"#"} className={styles.link}>
+          <Link href={"/"} className={styles.link}>
             INICIO
-          </a>
+          </Link>
           <div className={styles.linkBar}></div>
         </li>
         <li className={styles.listItem}>

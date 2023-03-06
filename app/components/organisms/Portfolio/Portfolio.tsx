@@ -19,7 +19,7 @@ const Portfolio = ({}: IPortfolio) => {
           Hack donde la usaron alrededor de 140.
         </p>
       </div>
-      <ButtonPurple text={"VER MÁS"} link={"#contactUs"} />
+      {/* <ButtonPurple text={"VER MÁS"} link={"#contactUs"} /> */}
     </div>
   );
 };

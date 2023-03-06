@@ -62,7 +62,7 @@ const Activities = ({}: IActivities) => {
               <></>
             )}
 
-            <ButtonPurple text={"VER PRÓXIMOS"} link={"#contactUs"} />
+            <ButtonPurple text={"VER PRÓXIMOS"} link={"/events"} />
           </div>
         </>
       )}

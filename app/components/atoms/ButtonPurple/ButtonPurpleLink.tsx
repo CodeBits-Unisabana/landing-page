@@ -7,12 +7,12 @@ interface IButtonPurple {
   link: string;
 }
 
-const ButtonPurple = ({ text, link }: IButtonPurple) => {
+const ButtonPurpleLink = ({ text, link }: IButtonPurple) => {
   return (
-    <Link href={link} className={styles.button}>
+    <a href={link} className={styles.button}>
       {text}
-    </Link>
+    </a>
   );
 };
 
-export default ButtonPurple;
+export default ButtonPurpleLink;

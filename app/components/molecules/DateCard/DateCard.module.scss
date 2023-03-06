@@ -1,0 +1,56 @@
+.dateCard {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+  margin: 20px;
+  margin-left: 80px;
+  gap: 40px;
+}
+
+.date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  span {
+    font-family: "Roboto Flex";
+    font-style: italic;
+    font-weight: 900;
+    color: var(--purple-color);
+    &:nth-child(1) {
+      font-size: 45px;
+    }
+    &:nth-child(2) {
+      font-size: 25px;
+    }
+  }
+}
+
+.description {
+  font-family: "M PLUS 1 Code", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 15px;
+  color: var(--white-full-color);
+  h3 {
+    font-weight: 700;
+    font-size: 25px;
+    margin: 0;
+  }
+  span {
+    font-weight: 300;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .dateCard {
+    width: 80%;
+    margin-left: 0;
+    flex-direction: column;
+  }
+}
