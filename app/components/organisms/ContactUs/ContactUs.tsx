@@ -18,6 +18,8 @@ import styles from "./ContactUs.module.scss";
 
 //Prettier ignore
 
+//Prettier ignore
+
 interface IContactUs {}
 
 const ContactUs = ({}: IContactUs) => {

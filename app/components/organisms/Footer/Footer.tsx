@@ -39,11 +39,23 @@ const Footer = ({}: IFooter) => {
       </div>
       <div className={styles.bottomContent}>
         <div className={styles.legal}>
-          <a href="https://docs.google.com/document/d/e/2PACX-1vT9Rp34dr8PWHgqxXskuu_TJ8D_Id3iFsnHAK9ypbBo3R1uqxkuBX1FkGmbw_s-KwYV3weNawWiGW3q/pub">
+          <a
+            target="_blank"
+            href="https://docs.google.com/document/d/e/2PACX-1vT9Rp34dr8PWHgqxXskuu_TJ8D_Id3iFsnHAK9ypbBo3R1uqxkuBX1FkGmbw_s-KwYV3weNawWiGW3q/pub"
+          >
             Términos y Condiciones
           </a>
-          <a href="https://docs.google.com/document/d/e/2PACX-1vQx8ZI7gYjcY3Le6v_gZ7_vH8QscXl_LJRWYzQwwbRiL6ARsXP4rJOdjNnSULbUJaSatD3j4xLNhU3x/pub">
+          <a
+            target="_blank"
+            href="https://docs.google.com/document/d/e/2PACX-1vQx8ZI7gYjcY3Le6v_gZ7_vH8QscXl_LJRWYzQwwbRiL6ARsXP4rJOdjNnSULbUJaSatD3j4xLNhU3x/pub"
+          >
             Política de privacidad
+          </a>
+          <a
+            target="_blank"
+            href="https://docs.google.com/document/d/e/2PACX-1vRbG2h2is5v8p05TYvcSvnxRfOINAWEhJliy2GA9UPt_z1KxyGr3nHrGxs0rMRjZq8lJ_2e2FO7WU5I/pub"
+          >
+            Código de conducta
           </a>
         </div>
       </div>

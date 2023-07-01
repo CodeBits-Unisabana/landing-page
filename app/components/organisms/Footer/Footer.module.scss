@@ -89,6 +89,13 @@
   }
 }
 
+@media screen and (max-width: 700px) {
+  .legal {
+    flex-direction: column;
+    gap: 45px;
+  }
+}
+
 @media screen and (max-width: 550px) {
   .topContent {
     flex-direction: column;
@@ -112,9 +119,5 @@
     width: 90%;
     height: 80%;
     gap: 80px;
-  }
-
-  .legal {
-    gap: 10%;
   }
 }
