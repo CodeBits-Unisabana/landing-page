@@ -53,7 +53,7 @@ const Footer = ({}: IFooter) => {
           </a>
           <a
             target="_blank"
-            href="https://docs.google.com/document/d/e/2PACX-1vRbG2h2is5v8p05TYvcSvnxRfOINAWEhJliy2GA9UPt_z1KxyGr3nHrGxs0rMRjZq8lJ_2e2FO7WU5I/pub"
+            href="https://docs.google.com/document/d/e/2PACX-1vSZKBv3d-Es5Gany2umiIauI2ZV8rx67JgVLXVQt6X-Ll7WWBpFAoi3DRV0AXamA_L2_fw546Ap1vHW/pub"
           >
             Código de conducta
           </a>
