@@ -46,16 +46,21 @@
   width: 50%;
   height: 3px;
   margin: 10px 0;
+  margin-left: 15px;
   background-color: var(--cyan-color);
 }
 
-@media screen and (max-width: 650px) {
+.redirectButton {
+  margin: 50px 0;
+}
+
+@media screen and (max-width: 950px) {
   .date {
     display: flex;
     justify-content: center;
     align-items: center;
   }
   .divisor {
-    width: 80%;
+    width: 85%;
   }
 }

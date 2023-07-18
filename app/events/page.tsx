@@ -15,20 +15,45 @@ const Events = ({}: IEvents) => {
       </div>
       <div className={styles.list}>
         <DateCard
-          day={"14"}
-          month={"Mar"}
-          title={"Mi primer página web con React"}
-          tutor={"Jonathan Buitrago"}
+          day={"08"}
+          month={"Agosto"}
+          title={
+            "Desafío de diseño: Competición para medir la resolución de problemas en el mundo UX/UI"
+          }
+          tutor={"Miguel Timoté"}
         />
         <div className={styles.divisor}></div>
         <DateCard
           day={"15"}
-          month={"Mar"}
-          title={"Crea una api rest con Node.Js y Express"}
-          tutor={"Richard Guevara"}
+          month={"Agosto"}
+          title={
+            "Charla: El mundo del Open-source, inicia en el mundo del código abierto y encuentra oportunidades de empleo"
+          }
+          tutor={"Richard Guevara, Daniel Saavedra"}
+        />
+        <div className={styles.divisor}></div>
+
+        <DateCard
+          day={"10"}
+          month={"Septiembre"}
+          title={
+            "Proyecto: Inicia un desarrollo Open-source, define el alcance, establece canales de colaboración y anima a la comunidad a participar"
+          }
+          tutor={"Richard Guevara, Daniel Saavedra"}
+        />
+        <div className={styles.divisor}></div>
+        <DateCard
+          day={"25"}
+          month={"Septiembre"}
+          title={
+            "Taller: Tus primeros pasos como desarrollador Junior, retos y estrategias para tu primer trabajo"
+          }
+          tutor={"Jonathan Buitrago, Richard Guevara"}
         />
       </div>
-      <ButtonPurpleLink text={"Inscribirse"} link={"/#contactUs"} />
+      <div className={styles.redirectButton}>
+        <ButtonPurpleLink text={"Inscribirse"} link={"/#contactUs"} />
+      </div>
     </div>
   );
 };

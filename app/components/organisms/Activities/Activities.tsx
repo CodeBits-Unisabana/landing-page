@@ -38,16 +38,16 @@ const Activities = ({}: IActivities) => {
             )}
             <EventsCard
               image={Event1.src}
-              title={"Taller de FrontEnd 2023"}
-              upperInfo={"Sesión de 3 horas"}
-              lowerInfo={"Octubre de 2022"}
+              title={"Taller - Mi primer página web con React"}
+              upperInfo={"Marzo de 2023"}
+              lowerInfo={"Jonathan Buitrago"}
               color={"cyan"}
             />
             <EventsCard
               image={Event2.src}
-              title={"Taller de BackEnd 2023"}
-              upperInfo={"Sesión de 3 horas"}
-              lowerInfo={"Noviembre de 2022"}
+              title={"Taller - Crea una api rest con Node.Js y Express"}
+              upperInfo={"Febrero de 2023"}
+              lowerInfo={"Richard Guevara"}
               color={"purple"}
             />
           </div>

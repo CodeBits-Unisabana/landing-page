@@ -20,8 +20,6 @@ const Statistic = ({ description, data }: IStatistic) => {
         enableScrollSpy={true}
         scrollSpyDelay={1}
         scrollSpyOnce={true}
-        onEnd={() => console.log("Ended! 👏")}
-        onStart={() => console.log("Started! 💨")}
       ></CountUp>
     </div>
   );
