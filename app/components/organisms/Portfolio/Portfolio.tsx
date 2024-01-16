@@ -15,8 +15,9 @@ const Portfolio = ({}: IPortfolio) => {
       <div className={styles.projects}>
         <img src={Project1.src} alt="" className={styles.image} />
         <p className={styles.description}>
-          Desarrollamos la app para ver los retos de los equipos en la Sabana
-          Hack donde la usaron alrededor de 140.
+          Desarrollamos un sistema contable para la gestión de documentos de los
+          clientes de GlobalAccounters, contamos con más de 300 usuarios
+          activos.
         </p>
       </div>
       {/* <ButtonPurple text={"VER MÁS"} link={"#contactUs"} /> */}

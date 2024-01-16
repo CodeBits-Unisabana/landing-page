@@ -3,7 +3,7 @@
 import { Dispatch, SetStateAction, useMemo, useState } from "react";
 
 import Illustration2 from "../../../../public/assets/Illustration2.svg";
-import Espitia from "../../../../public/assets/Members/Espitia.webp";
+import Andres from "../../../../public/assets/Members/Andres.webp";
 import Jonathan from "../../../../public/assets/Members/Jonathan.webp";
 import Ozami from "../../../../public/assets/Members/Ozami.webp";
 import Richard from "../../../../public/assets/Members/Richard.webp";
@@ -39,9 +39,9 @@ const Members = ({}: IMembers) => {
       con aquellos que desean cambiar el mundo. Fundador y lider de diseño UX/UI de CodeBits`,
     },
     {
-      image: Espitia,
-      name: "DAVID ESPITIA",
-      description: `Tutor y desarrollador FullStack del equipo CodeBits siempre ayudando con la resolución de nuevos problemas.`,
+      image: Andres,
+      name: "ANDRES JIMENEZ",
+      description: `Desarrollador FullStack del equipo CodeBits siempre ayudando con la resolución de nuevos problemas.`,
     },
     {
       image: Ozami,

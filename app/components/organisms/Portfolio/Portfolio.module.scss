@@ -26,9 +26,10 @@
 }
 
 .image {
-  width: 616px;
-  height: 388px;
-  border-radius: 0 0 13% 13%;
+  width: 600px;
+  height: 300px;
+  border-radius: 0 0 15% 15%;
+  // object-fit: contain;
 }
 
 .description {
